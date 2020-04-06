@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/drawer_Registration"
+        android:title="Registration"
+        android:icon="@drawable/registration"
+        />
+    <item
+        android:id="@+id/drawer_Course"
+        android:title="Course"
+        android:icon="@drawable/courses"
+        />
+    <item
+        android:id="@+id/drawer_Utilities"
+        android:title="Utilities"
+        android:icon="@drawable/utilities"
+        />
+    <item
+        android:id="@+id/drawer_Profile"
+        android:title="Student Profile"
+        android:icon="@drawable/profile"
+        />
+    <item android:title="Community">
+        <menu>
+            <item
+                android:id="@+id/drawer_About"
+                android:title="About"
+                android:icon="@drawable/about"
+                />
+            <item
+                android:id="@+id/drawer_SignOut"
+                android:title="Sign Out"
+                android:icon="@drawable/sign_out"
+                />
+            <item
+                android:id="@+id/drawer_Exit"
+                android:title="Exit"
+                android:icon="@drawable/exit"
+                />
+        </menu>
+    </item>
+</menu>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:id="@+id/rawFeedItem_ImgAvatar"
+        android:background="#D8D8D3"
+        android:scaleType="fitXY"
+        android:layout_marginTop="3dp"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"/>
+    <TextView
+        android:id="@+id/rawFeedItem_TxtTitle"
+        android:layout_marginTop="3dp"
+        android:layout_marginLeft="5dp"
+        android:text="Mission impossible? WHO director fights to prevent a pandemic without offending China"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:id="@+id/rawFeedItem_TxtDescription"
+        android:layout_marginTop="3dp"
+        android:layout_marginLeft="5dp"
+        android:textSize="15sp"
+        android:text="New outbreak comes as Tedros Adhanom Ghebreyesus struggles to raise more money, thwart Ebola, and fight health misinformation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/rawFeedItem_TxtPubDate"
+            android:text="20/02/2020"
+            android:gravity="right"
+            android:layout_marginLeft="5dp"
+            android:textStyle="italic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <ImageView
+            android:id="@+id/rawFeedItem_ImgShare"
+            android:src="@drawable/share"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </RelativeLayout>
+
+
+</LinearLayout>

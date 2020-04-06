@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:icon="@drawable/search"
+        app:showAsAction="always"
+        android:title="">
+        <menu>
+            <item
+                android:id="@+id/mSchedule_All"
+                android:title="Xem Lịch Học"/>
+            <item
+                android:id="@+id/mSchedule_Assignment"
+                android:title="Xem Lịch Thi"/>
+            <item
+                android:id="@+id/mSchedule_ByDate"
+                android:title="Xem Theo Ngày"/>
+            <item
+                android:id="@+id/mSchedule_ByName"
+                android:title="Xem Theo Tên"/>
+        </menu>
+    </item>
+
+</menu>

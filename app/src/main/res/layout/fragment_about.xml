@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragment.Tab_Course">
+
+    <TextView
+        android:id="@+id/fAbout_Title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="APP SCHOOL MANAGER"
+        android:textColor="#2788FD"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/fAbout_Title2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/fAbout_Title"
+        android:gravity="center"
+        android:text="\u00a9 PS10674-Nguyễn Trọng Nhân\u2122"
+        android:textColor="#4498FD"
+        android:textSize="12sp"
+        android:textStyle="italic" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/fAbout_Title2"
+        android:layout_marginTop="5dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/fAbout_Info"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ffff"
+            android:padding="5dp"
+            android:text="  System Information"
+            android:textColor="#2788FD"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/fAbout_InfoDetail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:inputType="textMultiLine"
+            android:paddingLeft="10dp"
+            android:text="  GVHD : Trần Thị Hường \n  SVTH : Nguyễn Trọng Nhân\n  MSSV: PS10674\n  Lớp : Lập Trình Di Động -- LT15101"
+            android:textColor="#4498FD"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/fAbout_Guide"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:background="#ffff"
+            android:padding="5dp"
+            android:text="  Instruction manuals"
+            android:textColor="#2788FD"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/fAbout_GuideDetail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:inputType="textMultiLine"
+            android:paddingLeft="10dp"
+            android:text="  HIỆN TẠI CHƯA CÓ"
+            android:textColor="#4498FD"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/fAbout_Privacy"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:background="#ffff"
+            android:padding="5dp"
+            android:text="   Privacy policy"
+            android:textColor="#2788FD"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/fAbout_PrivacyDetail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:inputType="textMultiLine"
+            android:paddingLeft="10dp"
+            android:text="  HIỆN TẠI CHƯA CÓ"
+            android:textColor="#4498FD"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/fAbout_Release"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:background="#ffff"
+            android:padding="5dp"
+            android:text="  Release versions"
+            android:textColor="#2788FD"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/fAbout_ReleaseDetail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:paddingLeft="10dp"
+            android:text="  PHÁT HÀNH DUY NHẤT MỘT VERSION  0.0.1\n  KHÔNG PHÁT HÀNH THÊM VERSION NÀO NỮA"
+            android:textColor="#4498FD"
+            android:textSize="12sp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:background="#ffff"
+            android:padding="5dp"
+            android:text="  Latest release:   0.0.1"
+            android:textColor="#2788FD"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+</RelativeLayout>

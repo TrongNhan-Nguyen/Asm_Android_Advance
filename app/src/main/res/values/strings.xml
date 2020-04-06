@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Asm_FireBase</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="maps_key">AIzaSyCApxr80QQiJHno2XB_vzqs-IMGEyP1ugY</string>
+    <string name="facebook_app_id">2504631009787329</string>
+    <string name="fb_login_protocol_scheme">fb2504631009787329</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
